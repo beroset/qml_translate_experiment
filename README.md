@@ -6,7 +6,7 @@ CMake and Qt are both very useful tools for C++ programmers, but how to use them
 The goal is to have a *minimal* but working example of a QML application with internationalization support, to provide a template for how to do this.
 
 ## Current state
-At the moment, the software can be built with either CMake or qmake, but only the qmake version works correctly for reasons that are not clear to me.  (Comments or pull requests to fix that would be welcome!)  Only Linux is currently supported, but this could be expanded once it works more reliably.  I use the Fedora distribution, so some of the tools on your Linux platform might be different, but the general idea should be widely applicable.
+At the moment, the software can be built with either CMake or qmake. Only Linux is currently supported, but this could be expanded once it works more reliably.  I use the Fedora distribution, so some of the tools on your Linux platform might be different, but the general idea should be widely applicable.
 
 ### Build with qmake
 To build with qmake, use the following commands.  
@@ -36,7 +36,7 @@ cmake ..
 make
 ```
 
-This will creat the executable, named `silly`.  It is supposed to do only one thing, which is to display a non-functional button with the word "Bonjour", "Hello" or "Hallo" depending on which system language is selected, but it does not currently work.  Instead it displays the untranslated text "greeting" and I don't yet know why.  To test the program without permanently changing the system language or locale, one can use the `LANGUAGE` environment variable for this like so:
+This will creat the executable, named `silly`.  It is supposed to do only one thing, the same as the qmake version, which is to display a non-functional button with the word "Bonjour", "Hello" or "Hallo" depending on which system language is selected.  To test the program without permanently changing the system language or locale, one can use the `LANGUAGE` environment variable for this like so:
 
 ```
 LANGUAGE=fr ./src/silly
