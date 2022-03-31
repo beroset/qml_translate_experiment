@@ -1,5 +1,5 @@
 <!DOCTYPE RCC><RCC version="1.0">
-    <qresource prefix="/">
+    <qresource prefix="i18n">
         <file alias="qml_en.qm">src/qml_en.qm</file>
         <file alias="qml_fr.qm">src/qml_fr.qm</file>
         <file alias="qml_de.qm">src/qml_de.qm</file>
