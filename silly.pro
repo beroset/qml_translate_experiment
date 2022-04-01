@@ -8,6 +8,6 @@ RESOURCES += src/silly.qrc
 CONFIG += lrelease embed_translations
 
 TRANSLATIONS += \
-    src/qml/translations/qml_en.ts \
-    src/qml/translations/qml_fr.ts \
-    src/qml/translations/qml_de.ts
+    src/translations/qml_en.ts \
+    src/translations/qml_fr.ts \
+    src/translations/qml_de.ts

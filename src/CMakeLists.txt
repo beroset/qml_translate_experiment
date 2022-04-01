@@ -1,9 +1,9 @@
 cmake_minimum_required(VERSION 3.22)
 find_package(Qt5 COMPONENTS Qml Quick LinguistTools REQUIRED)
 set(TRANSLATIONS 
-    qml/translations/qml_en.ts
-    qml/translations/qml_fr.ts
-    qml/translations/qml_de.ts
+    translations/qml_en.ts
+    translations/qml_fr.ts
+    translations/qml_de.ts
 )
 qt5_create_translation(QM_FILES ${CMAKE_CURRENT_SOURCE_DIR} ${TRANSLATIONS})
 
@@ -33,7 +33,6 @@ add_executable(silly
     main.cpp 
     silly.qrc
     xlat.qrc
-    "${QRC_RESOURCES}"
     "${QM_FILES}"
 )
 target_compile_features(silly PUBLIC cxx_std_17)
