@@ -2,11 +2,11 @@
 <!DOCTYPE TS>
 <TS version="2.1" language="en_US">
 <context>
-    <name>qml-i18n</name>
+    <name>silly</name>
     <message>
-        <location filename="../qml-i18n.qml" line="11"/>
+        <location filename="../silly.qml" line="11"/>
         <source>greeting</source>
-        <translation>Hello</translation>
+        <translation type="unfinished">Hello</translation>
     </message>
 </context>
 </TS>

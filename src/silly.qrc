@@ -1,5 +1,5 @@
 <!DOCTYPE RCC><RCC version="1.0">
     <qresource prefix="/">
-        <file alias="qml-i18n.qml">qml/qml-i18n.qml</file>
+        <file alias="silly.qml">qml/silly.qml</file>
     </qresource>
 </RCC>
